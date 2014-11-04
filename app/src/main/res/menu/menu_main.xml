@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- JAVIER GARCIA TARIN -->
+
+    <item android:id="@+id/menuOp1" android:title="@string/opcion1"
+          android:icon="@android:drawable/ic_menu_preferences"/>
+    <item android:id="@+id/menuOp2" android:title="@string/opcion2"
+          android:icon="@android:drawable/ic_menu_compass" />
+    <item android:id="@+id/menuOp3" android:title="@string/opcion3"
+          android:icon="@android:drawable/ic_menu_agenda">
+        <menu>
+            <item android:id="@+id/subMenuOp1" android:title="@string/subMenuOp1"/>
+            <item android:id="@+id/subMenuOp2" android:title="@string/subMenuOp2"/>
+        </menu>
+    </item>
+
+</menu>
